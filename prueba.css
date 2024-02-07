@@ -1,0 +1,49 @@
+/*Leandro José Paniagua Balbuena*/
+
+#contenedor {
+    display: flex;
+    background-color: #1e89d1;
+    color: #ffffff;
+    text-align: center;
+    width: 400px;
+}
+
+#caja1 {
+    flex-grow: 1;
+    background-color: blue;
+    margin: 5px;
+}
+
+#caja2 {
+    flex-grow: 3;
+    background-color: darkgray;
+    margin: 5px;
+}
+
+#caja3 {
+    flex-shrink: 1;
+    background-color: red;
+    margin: 5px;
+}
+
+/*--------------------------------------------------------*/
+		
+#contenedor2 {
+    display: flex;
+    background-color: #1e89d1;
+    color: white;
+    text-align: center;
+    width: 800px;
+}
+
+#caja4, #caja5, #caja6 {
+    flex-grow: 1;
+    background-color: blue;
+    margin: 5px;
+}
+
+#caja7 {
+    flex-grow: 2;
+    background-color: green;
+    margin: 5px;
+}  
